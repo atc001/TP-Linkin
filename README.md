@@ -1,3 +1,4 @@
+
 Dans chaque balise html (exemple: <section>, <div>, <footer>...), on peut rajouter une classe comme ceci (exemple: <section class="">, <div class="">...)
 
 Parametres a connaitre :
