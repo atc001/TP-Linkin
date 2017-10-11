@@ -5,7 +5,10 @@
 }
 .dancing{
     font-family: 'Dancing Script', cursive;
-} 
+}
+.no_style{
+    list-style: none;
+}
 .no_margin{
     margin: 0;
 }
@@ -58,6 +61,9 @@
 .big{
     font-size: 20px;
 }
+.no_display{
+    display: none;
+}
 #partie_un{
     padding-left: 5px;
     h1{
@@ -75,6 +81,19 @@ header{
     .pacifico;
     .color;
     font-size: 40px;
+    h4{
+        padding: 10px;
+        .dancing;
+        border: 1px solid white;
+        width: 100px;
+    }
+    ul{
+        .dancing;
+    }
+    h4:hover{
+        background-color: lightgray;
+        color: black;
+    }
 }
 #partie_deux{
     padding-top: 20px;
@@ -102,6 +121,12 @@ header{
         .flex;
         .justify_center;
         .pacifico
+    }
+    #slider{
+        height: 300px;
+        .flex;
+        .justify_center;
+        .items_center;
     }
     p{
         .dancing;
@@ -149,11 +174,6 @@ footer{
             .direction_column;
             .items_center;
             .justify_center;
-        }
-    }
-    #partie_trois{
-        div{
-            .direction_column;
         }
     }
 }

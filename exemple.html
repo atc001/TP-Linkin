@@ -14,7 +14,21 @@
         <header>
             <div class="flex back_one justify_around items_center">
                 <img src="img/linkin.jpg" alt="">
-                <h1>Linkin Park</h1>
+                <div>
+                    <h1>Linkin Park</h1>
+                    <div class="flex justify_center items_center direction_column">
+                        <h4>Groupe</h4>
+                        <ul class="no_display no_style">
+                            <li>Mike Shinoda - Piano</li>
+                            <li>Joe Hahn - Platine</li>
+                            <li>Rob Bourdon - Batterie</li>
+                            <li>Brad Delson - Bassiste</li>
+                            <li>Dave Farrell - Bassiste</li>
+                            <li>Chester Bennington - Chant</li>
+                            <li>Mark Wakefield - Chant</li>
+                        </ul>
+                    </div>
+                </div>
                 <img src="img/linkin2.jpg" alt="">
             </div>
         </header>
@@ -67,22 +81,12 @@
         </div>
         <div id="partie_trois" class="flex direction_column">
             <h1>Vitrine Album</h1>
-            <div class="flex justify_around">
-                <div class="flex direction_column items_center">
-                    <img src="img/album.jpg" alt="">
-                    <p>Meteora</p>
-                </div>
-                <div class="flex direction_column items_center">
-                    <img src="img/album2.jpg" alt="">
-                    <p>Hybrid Theory</p>
-                </div>
-                <div class="flex direction_column items_center">
-                    <img src="img/album3.jpg" alt="">
-                    <p>Live in Texas</p>
-                </div>
-                <div class="flex direction_column items_center">
-                    <img src="img/album4.jpg" alt="">
-                    <p>Underground XIV</p>
+            <div id='slider'>
+                <div id='slider-container' style='display: none;'>
+                    <img src='img/album.jpg'>
+                    <img src='img/album2.jpg'>
+                    <img src='img/album3.jpg'>
+                    <img src='img/album4.jpg'>
                 </div>
             </div>
         </div>
@@ -92,4 +96,6 @@
     </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="scripts.js"></script>
+<script src="slide.js"></script>
 </html>

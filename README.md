@@ -30,4 +30,9 @@ Parametres a connaitre :
         -medium : pour moyen
         -big : pour gros
 
+    Ajout d'un slider, responsive :
+
+        Pour ajouter les images, allez dans tout en bas dans le code index.html, et insérez vos images dans les balises img situer dans la div avec l'id "partie_trois".
+
+    
 
