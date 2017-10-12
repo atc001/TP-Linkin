@@ -48,8 +48,10 @@ Parametres a connaitre :
             -Album : 250x250
             -Interview : Comme vous voulez
 
-    Bug : Le slider bug quand on va au dela de la 4eme image sur la droite. Du cote gauche tout marche infiniment mais pas a droite.
-          J'ai néanmoins réaliser le slider responsive avec la bonne disposition des elements.
+    Bug : -Le slider bug quand on va au dela de la 4eme image sur la droite. Du cote gauche tout marche infiniment mais pas a droite.
+           J'ai néanmoins réaliser le slider responsive avec la bonne disposition des elements.
+          -La marge (droite et gauche) autour du header n'est pas concervée autour de la page.(résolu en mettant une width de 100% a mon header).
+          -L'image de la section interview se déforme un peu suivant la largeur de la fenêtre. (résolu. j'ai place l'img dans une div et j'ai mis une width de 100% et une height en auto).
 
     
 
