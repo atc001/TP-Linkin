@@ -1,0 +1,5 @@
+-L'image de la section interview se déforme un peu suivant la largeur de la fenêtre
+-La marge (droite et gauche) autour du header n'est pas concervée autour de la page
+-Si on appuie 5 fois sur le bouton droite du slider, ce bouton disparaît (par contre niquel sur la gauche)
+-Le header est beaucoup trop classe, il risque de rendre les rajeux jaloux
+

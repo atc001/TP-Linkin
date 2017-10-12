@@ -78,6 +78,10 @@
     }
 }
 header{
+    .flex;
+    .items_center;
+    .direction_row;
+    .justify_center;
     .pacifico;
     .color;
     font-size: 40px;
@@ -95,13 +99,23 @@ header{
         color: black;
     }
 }
+#header{
+    width: 100%;
+}
 #partie_deux{
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-    img{
+    div{
         width: 50%;
-        height: 500px;  
+        .flex;
+        .direction_column;
+        .items_center;
+        .justify_center;
+    }
+    img{
+        width: 100%;
+        height: auto;  
         padding-left: 5px;
     }
     h1{
@@ -110,8 +124,8 @@ header{
         .pacifico
     }
     p{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         .dancing;
         .big;
     }
@@ -144,11 +158,18 @@ footer{
     height: 100px;
 }
 
-@media screen and (max-width: 1423px) {
+@media screen and (max-width: 1441px) {
     header{
         img{
             display: none;
         }
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    #partie_deux{
+        .direction_column;
+        .items_center;
     }
 }
 
