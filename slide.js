@@ -25,6 +25,10 @@ $(document).ready(function() {
     
         function right() {
             var nextImage = $('#selected').next()[0];
+            // if (nextImage.localName === 'button' ) {
+            //     nextImage = undefined;
+            //   }
+
             if(nextImage == undefined) {
                 var nextImage = $('#slider-container div').first()[0];
             }
@@ -39,6 +43,7 @@ $(document).ready(function() {
         function createSlider() {
             sliderHtml += "<button style='background-color:transparent;border:none;font-size:50px;cursor:pointer;' data-action='left'><</button>";
             sliderHtml += "<div id='slider-container' style='display:flex;flex-direction:row;overflow:hidden;height:" + height + "px;width:" + width + "px'>"
+            // sliderHtml += `<div id='slider-container' style='display:flex;flex-direction:row;overflow:hidden;height:${height}px;width:${width}px'>`
             for (var i = 0; i < sliderData.length; i++) {
                 var display;
                 var id = "";
@@ -52,6 +57,7 @@ $(document).ready(function() {
                 sliderHtml += "<img src='" + $(sliderData[i])[0].src + "' style='height:" + height + "px;width:auto;'>";
                 sliderHtml += "</div>"
             }
+            sliderHtml += "</div>"
             sliderHtml += "<button style='background-color:transparent;border:none;font-size:50px;cursor:pointer;' data-action='right'>></button>";
     
             $("body").on('click', "button[data-action='left']", left);
